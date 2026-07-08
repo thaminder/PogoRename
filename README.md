@@ -66,6 +66,15 @@ The "OK" Button from the renaming Dialog
 Now save this Batch file and run it on your Computer (double click it)  
 <img width="1115" height="628" alt="grafik" src="https://github.com/user-attachments/assets/1a5eed21-f240-4891-806b-e73980ca40dd" />  
 Enter the amount of pokemon for renaming (100, 200, eg).  
+Now you should see your device working.
+
+# Troubleshooting
+If you have a slow device (mine is a pixel 4 - so this is also very outdated) you can edit the waittimes between those actions.  
+powershell -Command "Start-Sleep -Milliseconds 400" means, it waits for 400 milliseconds before doing the next step. when showing
+the iv, the animation ingame is a little bit slow, so i set 3000 ms to wait (about 3 seconds) - this works super fine for me, but
+if you have a faster/slower device you can edit those values to your personal requirements. Beware: if any action is to slow and
+the next action is already triggered you have to lower this values. you can always cancel the "renaming" by pressing "STRG+C"
+
 
 
 
